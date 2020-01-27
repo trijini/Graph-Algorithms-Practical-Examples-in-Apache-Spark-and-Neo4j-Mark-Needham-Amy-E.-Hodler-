@@ -1,6 +1,8 @@
 # Welcome
 
-This repo has been created to supplement ideas and exercises from the free ebook [Graph Algorithms: Practical Examples in Apache Spark & Neo4j](https://neo4j.com/graph-algorithms-book-b/)
+This repo has been created to supplement ideas and exercises from the free ebook [Graph Algorithms: Practical Examples in Apache Spark & Neo4j](https://neo4j.com/graph-algorithms-book-b/):
+
+![assets/book-cover-oreilly-graph-algorithms.png](assets/book-cover-oreilly-graph-algorithms.png)
 
 > Whether you are building dynamic network models or forecasting real-world behavior, this book illustrates how graph algorithms deliver value: from finding vulnerabilities and bottlenecks to detecting communities and improving machine learning predictions.
 
