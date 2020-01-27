@@ -1,0 +1,15 @@
+{
+  "name": "explore-oreilly-graph-algorithms",
+  "version": "0.0.0",
+  "description": "This repo has been created to supplement ideas and exercises from the free ebook [Graph Algorithms: Practical Examples in Apache Spark & Neo4j](https://neo4j.com/graph-algorithms-book-b/)",
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/explore-oreilly-graph-algorithms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/explore-oreilly-graph-algorithms/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/explore-oreilly-graph-algorithms#readme"
+}
