@@ -15,3 +15,7 @@ This repo has been created to supplement ideas and exercises from the free ebook
 > + Walk through creating an ML workflow for link prediction combining Neo4j and Spark
 
 Example code for this project was obtained by cloning the repository available at [https://resources.oreilly.com/examples/0636920233145](https://resources.oreilly.com/examples/0636920233145)
+
+Errata for this book can be found at [https://www.oreilly.com/catalog/errata.csp?isbn=0636920233145](https://www.oreilly.com/catalog/errata.csp?isbn=0636920233145).
+
+For more information - as well as to find sample code, view/submit errata, etc - please see the official site at [http://shop.oreilly.com/product/0636920233145.do](http://shop.oreilly.com/product/0636920233145.do)
