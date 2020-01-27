@@ -1,0 +1,192 @@
+// tag::explore-data[]
+
+[options="header"]
+|=======
+|node1|node2|label
+|10019|28091|    1
+|10170|51476|    1
+|10259|17140|    0
+|10259|26047|    1
+|10293|71349|    1
+|=======
+
+// end::explore-data[]
+
+
+// tag::test-model-manually[]
+
+[options="header"]
+|=======
+
+|commonAuthors|probability                             |prediction
+|0            |[0.7540494940434322,0.24595050595656787]|0.0
+|1            |[0.7540494940434322,0.24595050595656787]|0.0
+|2            |[0.0536835525078107,0.9463164474921892] |1.0
+|10           |[0.0536835525078107,0.9463164474921892] |1.0
+//|100          |[0.0536835525078107,0.9463164474921892] |1.0
+
+|=======
+
+
+// end::test-model-manually[]
+
+// tag::explore-graphy-features-positive[]
+
+[options="header"]
+|=======
+
+|summary|     commonAuthors|    prefAttachment|  totalNeighbors
+|  count|             81096|             81096|             81096
+|   mean|3.5959233501035808| 69.93537289138798|10.082408503502021
+| stddev| 4.715942231635516|171.47092255919472|  8.44109970920685
+|    min|                 0|                 1|                 2
+|    max|                44|              3150|                90
+
+|=======
+
+
+// end::explore-graphy-features-positive[]
+
+// tag::explore-graphy-features-negative[]
+
+[options="header"]
+|=======
+
+|summary|     commonAuthors|    prefAttachment|  totalNeighbors
+|  count|              81096|            81096|             81096
+|   mean|0.37666469369635985|48.18137762651672| 12.97586810693499
+| stddev| 0.6194576095461857|94.92635344980489|10.082991078685803
+|    min|                  0|                1|                 1
+|    max|                  9|             1849|                89
+
+
+|=======
+
+
+// end::explore-graphy-features-negative[]
+
+// tag::explore-triangles-features-positive[]
+
+[options="header"]
+|=======
+
+|summary|     minTriangles|      maxTriangles|     minCoefficient|    maxCoefficient
+|  count|             81096|            81096|             81096|             81096
+|   mean|19.478260333431983|27.73590559337082|0.5703773654487051|0.8453786164620439
+| stddev|  65.7615282768483|74.01896188921927|0.3614610553659958|0.2939681857356519
+|    min|                 0|                0|               0.0|               0.0
+|    max|               622|              785|               1.0|               1.0
+
+|=======
+
+
+// end::explore-triangles-features-positive[]
+
+// tag::explore-triangles-features-negative[]
+
+[options="header"]
+|=======
+
+|summary|     minTriangles|      maxTriangles|     minCoefficient|    maxCoefficient
+|  count|            81096|             81096|              81096|             81096
+|   mean|5.754661142349808|35.651980368945445|0.49048921333297446| 0.860283935358397
+| stddev|  20.639236521699| 85.82843448272624| 0.3684138346533951|0.2578219623967906
+|    min|                0|                 0|                0.0|               0.0
+|    max|              617|               785|                1.0|               1.0
+
+|=======
+
+
+// end::explore-triangles-features-negative[]
+
+
+// tag::evaluate-model-basic[]
+
+
+[options="header"]
+|=======
+| measure    |score
+|   accuracy |0.864457
+|     recall |0.753278
+|  precision |0.968670
+
+
+|=======
+
+
+// end::evaluate-model-basic[]
+
+// tag::evaluate-model-graphy[]
+
+
+[options="header"]
+|=======
+| measure    |score
+|   accuracy | 0.978351
+|     recall | 0.924226
+|  precision | 0.943795
+
+
+|=======
+
+
+// end::evaluate-model-graphy[]
+
+// tag::evaluate-model-triangles[]
+
+
+[options="header"]
+|=======
+| measure    |score
+|   accuracy | 0.992924
+|     recall | 0.965384
+|  precision | 0.958582
+
+
+|=======
+
+
+
+// end::evaluate-model-triangles[]
+
+// tag::evaluate-model-community[]
+
+
+[options="header"]
+|=======
+| measure    |score
+|   accuracy | 0.995771
+|     recall | 0.957088
+|  precision | 0.978674
+
+
+|=======
+
+
+// end::evaluate-model-community[]
+
+// tag::check-train-set[]
+
+[options="header"]
+|=======
+| label    | count
+|    0|81096
+|    1|81096
+
+
+|=======
+
+// end::check-train-set[]
+
+
+// tag::check-test-set[]
+
+[options="header"]
+|=======
+| label    | count
+|    0|74128
+|    1|74128
+
+|=======
+
+// end::check-test-set[]

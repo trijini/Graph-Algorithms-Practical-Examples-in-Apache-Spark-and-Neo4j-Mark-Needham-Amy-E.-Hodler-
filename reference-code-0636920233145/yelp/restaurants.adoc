@@ -1,0 +1,62 @@
+// tag::restaurants[]
++-------+
+| count |
++-------+
+| 79395 |
++-------+
+// end::restaurants[]
+
+// tag::restaurants-reviews[]
++---------+
+| count   |
++---------+
+| 4213372 |
++---------+
+// end::restaurants-reviews[]
+
+// tag::toronto-restaurants-top-rated[]
++-----------------+-----------------------------------+-----------+
+|   averageRating | business                          |   reviews |
+|-----------------+-----------------------------------+-----------|
+|         4.28849 | Pai Northern Thai Kitchen         |      2988 |
+|         4.24383 | Banh Mi Boys                      |      1944 |
+|         3.49175 | Uncle Tetsu's Japanese Cheesecake |      1696 |
+|         3.9764  | Khao San Road                     |      1271 |
+|         4.11233 | KINKA IZAKAYA ORIGINAL            |      1184 |
+|         3.31727 | Amsterdam BrewHouse               |       996 |
+|         4.35344 | Seven Lives Tacos Y Mariscos      |       945 |
+|         3.76443 | Bannock                           |       866 |
+|         3.94272 | Barque Smokehouse                 |       838 |
+|         3.46964 | Salad King Restaurant             |       807 |
++-----------------+-----------------------------------+-----------+
+// end::toronto-restaurants-top-rated[]
+
+// tag::toronto-restaurants-best-reviewers-query[]
++------------------------------------------------------------------------------+
+| name       | pageRank           | restaurantReviews | totalReviews | friends |
++------------------------------------------------------------------------------+
+| "Kris"     | 25.274699499999993 | 723               | 830          | 4515    |
+| "Michelle" | 16.479681499999998 | 61                | 47           | 428     |
+| "Jason"    | 14.686309          | 133               | 122          | 2348    |
+| "Michael"  | 10.047493500000002 | 240               | 211          | 1036    |
+| "Will"     | 9.472587499999998  | 147               | 158          | 524     |
+| "Ariel"    | 9.1156725          | 187               | 180          | 246     |
+| "Karen"    | 7.977718           | 15                | 22           | 14      |
+| "Mai"      | 7.412119499999999  | 55                | 49           | 10      |
+| "D"        | 7.1778425000000015 | 23                | 25           | 8       |
+| "Amy"      | 6.811271499999999  | 366               | 414          | 1276    |
++------------------------------------------------------------------------------+
+// end::toronto-restaurants-best-reviewers-query[]
+
+
+// tag::toronto-restaurants-pai-northern-thai-kitchen[]
++-------------------------------------------------------+
+| name      | pageRank           | stars | date         |
++-------------------------------------------------------+
+| "Michael" | 10.047493500000002 | 4     | "2017-02-09" |
+| "Will"    | 9.472587499999998  | 4     | "2014-07-19" |
+| "Amy"     | 6.811271499999999  | 5     | "2016-11-13" |
+| "Jo-Anne" | 5.7982415000000005 | 3     | "2016-04-26" |
+| "Janna"   | 4.882001           | 4     | "2016-07-17" |
++-------------------------------------------------------+
+// end::toronto-restaurants-pai-northern-thai-kitchen[]

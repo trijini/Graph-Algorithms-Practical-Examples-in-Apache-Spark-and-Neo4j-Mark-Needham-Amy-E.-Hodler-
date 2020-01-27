@@ -1,0 +1,13 @@
+// tag::neo4j-results[]
+[options=header]
+|===
+| place
+| London
+| Doncaster
+| Immingham
+| Amsterdam
+| Utrecht
+| Amsterdam
+|===
+
+// end::neo4j-results[]
