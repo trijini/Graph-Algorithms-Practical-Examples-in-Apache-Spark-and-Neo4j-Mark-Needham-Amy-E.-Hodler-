@@ -1,0 +1,22 @@
+// results
+// >>> print(evaluated_df)
+//      measure     score
+// 0   Accuracy  0.705439
+// 1  Precision  0.508188
+// 2     Recall  0.581070
+//
+// >>> print(pd.DataFrame({"Feature": columns, "Importance": rf_model.featureImportances}))
+//                 feature  importance
+// 0           userFriends    0.021669
+// 1       numberOfReviews    0.023877
+// 2        numberOfPhotos    0.044326
+// 3            priceRange    0.021635
+// 4      numberOfUserTips    0.023676
+// 5         aveOtherStars    0.144435
+// 6  aveInfluentialRating    0.720382
+//
+// >>> data.stat.corr("aveInfluentialRating", "rawStars")
+// 0.3326105360293217
+//
+// >>> data.dropna(subset=["aveOtherStars"]).stat.corr("aveOtherStars", "rawStars")
+// 0.20588477497257635

@@ -1,0 +1,40 @@
+// tag::train-test[]
+
+[options="header"]
+|=======
+|training|count
+
+|       false|         21059
+|       true|          30897
+
+|=======
+
+// end::train-test[]
+
+
+// tag::early[]
+
+[options="header"]
+|=======
+|count
+
+|       81096
+
+|=======
+
+// end::early[]
+
+
+// tag::late[]
+
+
+[options="header"]
+|=======
+|count
+
+|       74128
+
+|=======
+
+
+// end::late[]

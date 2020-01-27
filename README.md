@@ -13,3 +13,5 @@ This repo has been created to supplement ideas and exercises from the free ebook
 > + Explore graph algorithm examples with working code and sample datasets for both Spark and Neo4j
 > + See how connected feature extraction increases machine learning accuracy and precision
 > + Walk through creating an ML workflow for link prediction combining Neo4j and Spark
+
+Example code for this project was obtained by cloning the repository available at [https://resources.oreilly.com/examples/0636920233145](https://resources.oreilly.com/examples/0636920233145)

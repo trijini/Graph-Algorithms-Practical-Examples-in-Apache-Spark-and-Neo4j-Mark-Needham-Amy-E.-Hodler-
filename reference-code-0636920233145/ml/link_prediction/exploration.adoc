@@ -1,0 +1,51 @@
+// tag::label[]
+
+[options="header"]
+|=======
+
+|summary|label
+|  count|            452929
+|   mean|0.5476862819558915
+| stddev|0.4977213733171475
+|    min|                 0
+|    max|                 1
+
+|=======
+
+// end::label[]
+
+// tag::label-agg[]
+
+[options="header"]
+|=======
+
+|label|count
+|    0|204866
+|    1|248063
+
+|=======
+
+// end::label-agg[]
+
+// tag::common-authors[]
+
+0.20797996196887802
+
+// end::common-authors[]
+
+// tag::basic-correlations[]
+
+
+[options="header"]
+|=======
+
+|                 |   commonAuthors  | p1Cited    | p2Cited   | label
+|commonAuthors    |   1.000000       | 0.001841   | -0.038563 | 0.207980
+|p1Cited          |   0.001841       | 1.000000   | 0.044287  | 0.069530
+|p2Cited          |  -0.038563       | 0.044287   | 1.000000  | 0.237967
+|label            |   0.207980       | 0.069530   | 0.237967  | 1.000000
+
+
+|=======
+
+// end::basic-correlations[]

@@ -1,0 +1,13 @@
+// tag::neo4j-results[]
+[options=header]
+|===
+| place              | cost
+| Den Haag         | 0.0
+| Hoek van Holland | 27.0
+| Felixstowe       | 234.0
+| Ipswich          | 256.0
+| Colchester       | 288.0
+| London           | 394.0
+|===
+
+// end::neo4j-results[]

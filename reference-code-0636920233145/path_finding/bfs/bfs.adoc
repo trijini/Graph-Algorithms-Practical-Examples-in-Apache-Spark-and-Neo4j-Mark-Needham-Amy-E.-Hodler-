@@ -1,0 +1,21 @@
+// tag::pyspark-results-columns[]
+['from', 'e0', 'v1', 'e1', 'v2', 'e2', 'to']
+// end::pyspark-results-columns[]
+
+// tag::pyspark-results[]
+[options=header]
+|===
+|                from|                  v1|                  v2|                  to
+|[Den Haag, 52.078...|[Hoek van Holland...|[Felixstowe, 51.9...|[Ipswich, 52.0591...
+|===
+
+// end::pyspark-results[]
+
+// tag::pyspark-candidates-results[]
+[options=header]
+|===
+|        id|latitude|longitude|population
+|Colchester|51.88921|  0.90421|    104390
+|   Ipswich|52.05917|  1.15545|    133384
+|===
+// end::pyspark-candidates-results[]

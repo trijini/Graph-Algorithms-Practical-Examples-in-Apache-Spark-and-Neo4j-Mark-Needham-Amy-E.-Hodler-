@@ -1,0 +1,44 @@
+// tag::pyspark-results[]
+[options=header]
+|===
+|id        |distance|path
+|Colchester|347.0   |[Amsterdam, Den Haag, Hoek van Holland, Felixstowe, Ipswich, Colchester]
+|===
+
+// end::pyspark-results[]
+
+// tag::neo4j-weighted-results[]
+[options=header]
+|===
+| place              | cost
+| Amsterdam        | 0.0
+| Den Haag         | 59.0
+| Hoek van Holland | 86.0
+| Felixstowe       | 293.0
+| Ipswich          | 315.0
+| Colchester       | 347.0
+| London           | 453.0
+|===
+// end::neo4j-weighted-results[]
+
+// tag::neo4j-unweighted-results[]
+[options=header]
+|===
+| place       | cost
+| Amsterdam | 0.0
+| Immingham | 1.0
+| Doncaster | 2.0
+| London    | 3.0
+|===
+// end::neo4j-unweighted-results[]
+
+// tag::neo4j-unweighted-calculate-costs-results[]
+[options=header]
+|===
+| place       | cost
+| Amsterdam | 0.0
+| Immingham | 369.0
+| Doncaster | 443.0
+| London    | 720.0
+|===
+// end::neo4j-unweighted-calculate-costs-results[]
